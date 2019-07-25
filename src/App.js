@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
+import WeatherCard from './components/weatherCardComponent';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
             <NavbarBrand href="/">My First Weather App</NavbarBrand>
           </div>
         </Navbar>
+        <WeatherCard />
       </div>
     );
   }
